@@ -1,6 +1,5 @@
 const contacts = require("./db/contacts");
-const { Command } = require('commander');
-const program = new Command();
+const {program} = require("commander");
 
 program
   .option('-a, --action <type>', 'choose action')
